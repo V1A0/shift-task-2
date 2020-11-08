@@ -9,7 +9,7 @@ function getRandInt(min, max) {
 
 function beautifyData(tags, data, about = '') {
     let result = ''
-    if (result) result += `<b><p>${about}</p></b>`
+    if (about) result += `<b><p>${about}</p></b>`
 
     tags.forEach((tag) => {
             try {
